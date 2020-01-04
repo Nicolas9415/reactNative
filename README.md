@@ -10,4 +10,5 @@ A react native app developed for my graduate project
 ## Push Notifications
  In order for push notifications to work in this app, you must create your own firebase project following the instructions provided by them.
  
- After that, you only need to provide your own private API KEY in the file reactNative/src/App.js in the line 29
+ After that, you must download the google-services.json file and place it under reactNative/android/app/.
+ Also, you must provide your own API KEY and place it on the file main.dart in line 29
